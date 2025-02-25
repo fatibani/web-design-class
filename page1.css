@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #222;
+}
+
+.clear {
+   clear: both;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: white;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+
+.featured {
+    text-align: left;
+    padding: 50px;
+}
+
+.featured h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.featured p {
+    color: #555;
+}
+
+
+.works {
+    gap: 40px;
+    padding: 50px;
+    justify-content: center;
+}
+
+.work {
+    text-align: left;
+    padding: 30px 0px;
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.work h3 {
+    margin-top: 10px;
+}
+
+.work p {
+    color: #666;
+}
+
+
+.cta {
+    text-align: left;
+    padding: 50px;
+    border-top: 1px solid #f2f2f2;
+}
+
+.cta p {
+    font-size: 1.2em;
+    color: #777;
+    margin: 15px 0px;
+}
+
+.cta h2 {
+    margin: 10px 0;
+}
+
+.cta button {
+    background: blue;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.cta button:hover {
+    background: darkblue;
+}
+
+.cta ul {
+    list-style: none;
+    padding: 0;
+    float: right;
+}
+
+.cta ul li {
+    padding: 5px 0px;
+}
+
+.cta ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer {
+    margin-top: 10px;
+    padding: 10px 50px;
+    border-top: 1px solid #f2f2f2;
+}
+
+footer img {
+    margin-top: 10px;
+}
+
+footer p {
+    float: right;
+}
